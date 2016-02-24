@@ -8,7 +8,7 @@ function showStartScreen() {
 // start the game
 
 function startGame() {
-    // this must be configured one mousedown event in the start screen
+    // this must be configured on mousedown event in the start screen
     layerNamed('startscreen').style.display = 'none'; // none = hide layer
     startFlapping('bird');
     startMovingBackgound('background', -7);
